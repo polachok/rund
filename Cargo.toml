@@ -1,0 +1,13 @@
+[package]
+name = "rund"
+version = "0.1.0"
+authors = ["Alexander Polyakov <apolyakov@beget.com>"]
+
+[dependencies]
+tokio-core = "0.1"
+tokio-process = "0.1"
+tokio-uds = "0.1"
+futures = "0.1"
+libc = "0.2"
+prctl = "1.0"
+clap = "2.23"
